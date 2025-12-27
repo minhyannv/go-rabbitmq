@@ -1,4 +1,4 @@
-module go-rabbitmq
+module github.com/minhyannv/go-rabbitmq
 
 go 1.20
 

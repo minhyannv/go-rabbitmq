@@ -1,0 +1,38 @@
+# ===== Go build artifacts =====
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Binaries and build dirs
+bin/
+dist/
+build/
+
+# ===== Go tooling =====
+# If you use `go test -coverprofile=...`
+coverage.out
+*.coverprofile
+
+# If you use `go work`
+go.work
+go.work.sum
+
+# ===== Dependencies (optional) =====
+# Uncomment if you vendor dependencies:
+# vendor/
+
+# ===== Logs & runtime files =====
+*.log
+*.pid
+
+# ===== OS / Editor =====
+.DS_Store
+.idea/
+*.iml
+.vscode/
+
+
